@@ -1,0 +1,11 @@
+---
+inherit_gem:
+  rubocop-fnando: .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.6
+
+Naming/FileName:
+  Exclude:
+    - lib/omniauth-wordpress.rb
+    - lib/omniauth-wp.rb
